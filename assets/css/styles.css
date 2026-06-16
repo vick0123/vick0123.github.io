@@ -100,8 +100,8 @@ p { color: var(--muted); line-height: 1.75; }
 
 .hero-visual { position: relative; min-height: 540px; perspective: 1000px; }
 .orb { position: absolute; border-radius: 50%; filter: blur(2px); opacity: .85; }
-.orb-one { width: 260px; height: 260px; background: rgba(142,197,255,.5); right: 5%; top: 2%; }
-.orb-two { width: 220px; height: 220px; background: rgba(224,195,252,.45); left: 0; bottom: 5%; }
+.orb-one { width: 260px; height: 260px; background: rgba(32, 92, 64, 0.5); right: 5%; top: 2%; }
+.orb-two { width: 220px; height: 220px; background: rgba(14, 114, 89, 0.45); left: 0; bottom: 5%; }
 .glass-card {
   position: absolute; inset: 54px 20px 20px 45px; border: 1px solid var(--line); border-radius: var(--radius-xl);
   background: linear-gradient(145deg, rgba(255,255,255,.16), rgba(255,255,255,.055));
