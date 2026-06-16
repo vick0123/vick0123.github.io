@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Dashboard Design",
+    "description": "Building clear, polished dashboards with strong visual hierarchy, useful filters, and decision-focused layouts."
+  },
+  {
+    "name": "Data Preparation",
+    "description": "Cleaning, joining, reshaping, validating, and documenting data for analysis-ready workflows."
+  },
+  {
+    "name": "Business Storytelling",
+    "description": "Turning analysis into narratives that explain what changed, why it matters, and what to do next."
+  },
+  {
+    "name": "Analytics Engineering",
+    "description": "Applying SQL, data modeling, dbt concepts, and structured thinking to make datasets easier to trust and reuse."
+  }
+]
