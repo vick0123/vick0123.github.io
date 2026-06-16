@@ -1,0 +1,44 @@
+[
+  {
+    "title": "LeBron Career Dashboard",
+    "description": "An interactive basketball analytics dashboard comparing LeBron's eras, advanced metrics, scoring profile, and career impact.",
+    "tools": ["Tableau", "Sports Analytics", "Data Storytelling"],
+    "live": "https://public.tableau.com/",
+    "repo": ""
+  },
+  {
+    "title": "NYC Heat Vulnerability",
+    "description": "A geospatial dashboard connecting heat exposure, contributing factors, and cooling center response across NYC neighborhoods.",
+    "tools": ["Tableau", "NYC Open Data", "Maps"],
+    "live": "https://public.tableau.com/",
+    "repo": ""
+  },
+  {
+    "title": "Underwriter Performance Analysis",
+    "description": "A benchmarking dashboard concept that helps leaders compare underwriter performance, bound business, and opportunity areas.",
+    "tools": ["Power BI", "Tableau", "Business Analysis"],
+    "live": "",
+    "repo": ""
+  },
+  {
+    "title": "Fire Marshal Resource Dashboard",
+    "description": "A decision-focused dashboard exploring station performance, response timing, location patterns, and operational resource needs.",
+    "tools": ["Tableau", "Operations", "Analytics"],
+    "live": "",
+    "repo": ""
+  },
+  {
+    "title": "Hotel Bookings Analysis",
+    "description": "A hospitality analysis project focused on booking channels, room types, lead time, and performance across multiple locations.",
+    "tools": ["Tableau Prep", "Tableau", "Data Modeling"],
+    "live": "",
+    "repo": ""
+  },
+  {
+    "title": "Data Modeling Blog Series",
+    "description": "A practical writing series explaining flat files, keys, relationships, and star schema design for analytics beginners.",
+    "tools": ["Writing", "SQL", "Data Modeling"],
+    "live": "",
+    "repo": ""
+  }
+]
