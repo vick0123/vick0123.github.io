@@ -3,14 +3,14 @@
     "title": "LeBron Career Dashboard",
     "description": "An interactive basketball analytics dashboard comparing LeBron's eras, advanced metrics, scoring profile, and career impact.",
     "tools": ["Tableau", "Sports Analytics", "Data Storytelling"],
-    "live": "https://public.tableau.com/",
+    "live": "https://public.tableau.com/app/profile/vivek.patel1989/viz/LebronJames_17809508256140/LebronOverview",
     "repo": ""
   },
   {
     "title": "NYC Heat Vulnerability",
     "description": "A geospatial dashboard connecting heat exposure, contributing factors, and cooling center response across NYC neighborhoods.",
     "tools": ["Tableau", "NYC Open Data", "Maps"],
-    "live": "https://public.tableau.com/",
+    "live": "https://public.tableau.com/app/profile/vivek.patel1989/viz/NYCHeatVulnerability/Exposure",
     "repo": ""
   },
   {
@@ -38,7 +38,7 @@
     "title": "Data Modeling Blog Series",
     "description": "A practical writing series explaining flat files, keys, relationships, and star schema design for analytics beginners.",
     "tools": ["Writing", "SQL", "Data Modeling"],
-    "live": "",
+    "live": "https://www.thedataschool.co.uk/vivek-patel/the-data-modelling-series-part-1-what-is-data-modelling-why-it-matters-2/",
     "repo": ""
   }
 ]
