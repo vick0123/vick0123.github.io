@@ -7,9 +7,9 @@
   --line: rgba(255, 255, 255, 0.12);
   --panel: rgba(255, 255, 255, 0.08);
   --panel-strong: rgba(255, 255, 255, 0.13);
-  --accent: #8ec5ff;
-  --accent-2: #e0c3fc;
-  --accent-3: #9cffd1;
+  --accent: #00c389;
+  --accent-2: #007f5f;
+  --accent-3: #7ef9c7;
   --shadow: 0 30px 90px rgba(0, 0, 0, 0.45);
   --radius-xl: 34px;
   --radius-lg: 24px;
@@ -69,7 +69,9 @@ code { color: var(--accent-3); }
 .brand { display: inline-flex; align-items: center; gap: 12px; font-weight: 800; letter-spacing: -0.03em; }
 .brand-mark {
   width: 42px; height: 42px; display: grid; place-items: center; border-radius: 14px;
-  background: linear-gradient(135deg, var(--accent), var(--accent-2)); color: #152B2E; box-shadow: 0 12px 34px rgba(142,197,255,.25);
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  color: #ffffff;
+  box-shadow: 0 12px 34px rgba(0,195,137,.18);
 }
 .brand-text { font-size: 1rem; }
 .nav-menu { display: flex; align-items: center; gap: 8px; }
