@@ -1,177 +1,179 @@
-<html>
-<style>
-  html {
-  scroll-behavior: smooth;
-    background-color:black;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Vivek Patel — Data Analytics Consultant focused on Tableau, Alteryx, Power BI, SQL, and data storytelling." />
+  <title>Vivek Patel | Data Analytics Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <div class="grain"></div>
+  <header class="site-header" id="top">
+    <nav class="nav shell" aria-label="Primary navigation">
+      <a class="brand" href="#top" aria-label="Vivek Patel home">
+        <span class="brand-mark">VP</span>
+        <span class="brand-text">Vivek Patel</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">
+        <span></span><span></span>
+        <span class="sr-only">Toggle menu</span>
+      </button>
+      <div class="nav-menu" id="nav-menu">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-cta" href="assets/Vivek-Patel-Resume.pdf">Resume</a>
+      </div>
+    </nav>
+  </header>
 
-}
-.navbar {
-  overflow: hidden;
-  background-color: silver;
-  position: fixed; 
-  top: 0; 
-  left:0;
-  width: 100%; 
-  font-family: 'Source Sans Pro', sans-serif;
-}
-.navbar a {
-  float: right;
-  display: block;
-  color: black;
-  text-align: left;
-  padding: 14px 16px;
-  text-decoration: none;
-  
-}
-.navbar a:hover {
-  background: black;
-  color: white;
-}
-
-
-
-.welcome-section {
-  display: flex;
-  background-image: url("https://images.unsplash.com/photo-1477346611705-65d1883cee1e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
-  background-position:center center;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 600px;
-  font-size:25px;
-  text-align:center;
-  font-family: 'Source Sans Pro', sans-serif;
-  color:white;
-}
-
-
-.projects{
-background:black;
-  width: 100%;
-  height: 1450px;
-  text-align:center;
-  font-size:25px;
-  font-family: 'Source Sans Pro', sans-serif;
-  color:white;
-}
-
-.contact{
-  display: flex;
-  background-color:white;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 600px;
-  text-align:center;
-  font-family: 'Source Sans Pro', sans-serif;
-  background-color:black;
-  color:white;
-}
-
-.row{
-  display:flex;
-  flex-direction:row;
-  width:100%;
-  
-}
-.column{
-  display:flex;
-  width:100%;
-  flex:1;
-  flex-direction:column;
-  border:1px solid black;
-}
-
-.icons{
-  display:flex;
-  width:100%;
-  flex-direction:row;
-  column-gap:20px;
-  justify-content: center;
-}
-
-
-@media only screen and (max-width: 600px) {
-  .projects{
-    display:none;
-  }
-}
-</style>
-
-<link rel="stylesheet" type="text/css" href="vick0123.github.io/vick0123.css">
-
-<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/fdea127591.js" crossorigin="anonymous"></script>
-
-<div class ="navbar">
-     <a href="#contact">Contact</a>
-     <a href="#projects">Projects</a>
-     <a href="CS.2020.VPatel.pdf" download>Resume</a>
-     <a href="#welcome-section">Welcome</a>
-      
-    </div>
-<!--Welcome-->
-<section id="welcome-section" class="welcome-section">
-  <div>
-  <h1>Vivek Patel</h1>
-  <p>Front-End Developer</p>
-    </div>
-</section>
-
-<!--Projects-->
-
-<section id="projects" class="projects">
-  <div class="container">
-    <h1>Projects</h1>
-    <div class="row">
-      <div class="column project-tile">
-        <iframe style="width: 100%; height: 646px; overflow: show;" src="https://vick0123.github.io/thebarista/home.html" width="100" height="100" scrolling="yes">Iframes not supported</iframe>
+  <main>
+    <section class="hero shell section-pad">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Data analytics • Visualization • Storytelling</p>
+        <h1>Turning messy data into sharp, useful stories.</h1>
+        <p class="hero-subtitle">
+          I build dashboards, analytics workflows, and data products that make decisions easier. Currently focused on Tableau, Alteryx, Power BI, SQL, and practical business storytelling.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#work">View projects</a>
+          <a class="button secondary" href="#contact">Get in touch</a>
         </div>
-      <div class="column">
-        <iframe height="646" style="width: 100%;" scrolling="no" title="Survey" src="https://codepen.io/vick0123/embed/preview/xxZBygE?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href='https://codepen.io/vick0123/pen/xxZBygE'>Survey</a> by Vivek Patel
-  (<a href='https://codepen.io/vick0123'>@vick0123</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
+        <div class="hero-proof" aria-label="Highlights">
+          <span><strong>Tableau</strong> dashboards</span>
+          <span><strong>Alteryx</strong> workflows</span>
+          <span><strong>SQL</strong> analysis</span>
         </div>
       </div>
-      <div class="row">
-      <div class="column">
-       <iframe height="646" style="width: 100%;" scrolling="no" title="Steve Jobs Tribute" src="https://codepen.io/vick0123/embed/preview/GRoeYRO?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href='https://codepen.io/vick0123/pen/GRoeYRO'>Steve Jobs Tribute</a> by Vivek Patel
-  (<a href='https://codepen.io/vick0123'>@vick0123</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
+
+      <div class="hero-visual reveal delay-1" aria-hidden="true">
+        <div class="orb orb-one"></div>
+        <div class="orb orb-two"></div>
+        <div class="glass-card dashboard-card tilt-card">
+          <div class="card-topline">
+            <span></span><span></span><span></span>
+          </div>
+          <div class="metric-row">
+            <div>
+              <p>Insight score</p>
+              <h3>94%</h3>
+            </div>
+            <div class="pulse"></div>
+          </div>
+          <div class="chart-bars">
+            <i style="height: 44%"></i>
+            <i style="height: 68%"></i>
+            <i style="height: 52%"></i>
+            <i style="height: 82%"></i>
+            <i style="height: 74%"></i>
+            <i style="height: 96%"></i>
+          </div>
+          <div class="sparkline">
+            <svg viewBox="0 0 400 120" role="img" aria-label="Decorative analytics line chart">
+              <path d="M10 90 C65 35, 105 80, 155 58 S245 20, 290 50 S355 85, 390 24" />
+            </svg>
+          </div>
         </div>
-      <div class="column">
-        <iframe height="646" style="width: 100%;" scrolling="no" title="Technical Page" src="https://codepen.io/vick0123/embed/preview/bGpNNKz?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href='https://codepen.io/vick0123/pen/bGpNNKz'>Technical Page</a> by Vivek Patel
-  (<a href='https://codepen.io/vick0123'>@vick0123</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
+        <div class="floating-chip chip-one">Decision-ready</div>
+        <div class="floating-chip chip-two">Clean data</div>
+        <div class="floating-chip chip-three">Executive story</div>
+      </div>
+    </section>
+
+    <section class="marquee" aria-label="Tools">
+      <div class="marquee-track">
+        <span>Tableau</span><span>Power BI</span><span>Alteryx</span><span>SQL</span><span>Python</span><span>dbt</span><span>Snowflake</span><span>Data Storytelling</span>
+        <span>Tableau</span><span>Power BI</span><span>Alteryx</span><span>SQL</span><span>Python</span><span>dbt</span><span>Snowflake</span><span>Data Storytelling</span>
+      </div>
+    </section>
+
+    <section class="section shell" id="work">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Selected work</p>
+        <h2>Projects with a clear point of view.</h2>
+        <p>Swap in your real project links, dashboard screenshots, and descriptions inside <code>data/projects.json</code>.</p>
+      </div>
+      <div class="project-grid" id="project-grid" aria-live="polite"></div>
+    </section>
+
+    <section class="section shell split" id="about">
+      <div class="about-card reveal">
+        <p class="eyebrow">About</p>
+        <h2>Analyst with a builder mindset.</h2>
+        <p>
+          I’m a data analytics consultant focused on making analysis understandable, usable, and visually clear. My work combines dashboard design, data preparation, stakeholder thinking, and a strong eye for storytelling.
+        </p>
+        <p>
+          I like projects where the final answer is not just a chart, but a better decision: where to allocate resources, which trends matter, and what action should happen next.
+        </p>
+      </div>
+      <div class="timeline reveal delay-1">
+        <article>
+          <span>01</span>
+          <h3>Frame the question</h3>
+          <p>Start with the decision, audience, and business context before choosing charts.</p>
+        </article>
+        <article>
+          <span>02</span>
+          <h3>Prepare the data</h3>
+          <p>Clean, model, join, and validate the dataset so the analysis is reliable.</p>
+        </article>
+        <article>
+          <span>03</span>
+          <h3>Design the story</h3>
+          <p>Build dashboards that guide users through insight, context, and action.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section shell" id="skills">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Capabilities</p>
+        <h2>Technical enough to build. Clear enough to explain.</h2>
+      </div>
+      <div class="skills-grid" id="skills-grid"></div>
+    </section>
+
+    <section class="section shell spotlight reveal">
+      <div>
+        <p class="eyebrow">Featured case study</p>
+        <h2>NYC Heat Vulnerability Analysis</h2>
+        <p>
+          A geospatial dashboard concept connecting exposure, contributing factors, and cooling center response across NYC neighborhoods.
+        </p>
+      </div>
+      <div class="spotlight-stats">
+        <div><strong>5</strong><span>Boroughs</span></div>
+        <div><strong>3</strong><span>Story sections</span></div>
+        <div><strong>1</strong><span>Decision flow</span></div>
+      </div>
+    </section>
+
+    <section class="section shell contact" id="contact">
+      <div class="contact-panel reveal">
+        <p class="eyebrow">Contact</p>
+        <h2>Let’s build something useful.</h2>
+        <p>Use this section for your email, LinkedIn, GitHub, Tableau Public, and resume link.</p>
+        <div class="contact-links">
+          <a href="mailto:vickpatel012345@gmail.com">Email</a>
+          <a href="https://github.com/vick0123" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://public.tableau.com/" target="_blank" rel="noreferrer">Tableau Public</a>
         </div>
       </div>
-      </div>
-    </div>
-</section>
-<!--Contact-->
-<section id="contact" class="contact">
- <h2> Contact Me</h2>
- <div class = icons>
-  
-    <a href="mailto:vickpatel012345@gmail.com" class ="active" target = "_blank">
-      <i class="fas fa-envelope fa-2x"></i>
-    </a>
-    <a href="https://www.linkedin.com/in/vivek-r-patel/" class ="active" target = "_blank">
-      <i class="fab fa-linkedin fa-2x"></i>
-    </a>
-    <a href="https://github.com/vick0123" class ="active" target = "_blank"> 
-       <i class="fab fa-github-square fa-2x"></i>
-    </a>
-</div>
-</section>
+    </section>
+  </main>
 
+  <footer class="footer shell">
+    <p>© <span id="year"></span> Vivek Patel. Built with GitHub Pages.</p>
+    <a href="#top">Back to top ↑</a>
+  </footer>
 
+  <script src="assets/js/main.js"></script>
+</body>
 </html>
