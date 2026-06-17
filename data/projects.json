@@ -5,7 +5,7 @@
     "tools": ["Tableau", "NYC Open Data", "Geospatial Analysis", "Data Storytelling"],
     "live": "https://public.tableau.com/app/profile/vivek.patel1989/viz/NYCHeatVulnerability/Exposure",
     "repo": "",
-    "image": "nyc-heat.png"
+    "image": "images/nyc-heat.png"
   },
   {
     "title": "NY Dam Safety Dashboard",
@@ -13,7 +13,7 @@
     "tools": [ "Tableau", "Risk Analysis", "Geospatial Analysis", "Data Storytelling"],
     "live": "",
     "repo": "",
-    "image": "ny-dam.png"
+    "image": "images/ny-dam.png"
   },
   {
     "title": "LeBron Career Dashboard",
@@ -21,7 +21,7 @@
     "tools": ["Tableau", "Sports Analytics", "Data Storytelling"],
     "live": "https://public.tableau.com/app/profile/vivek.patel1989/viz/LebronJames_17809508256140/LebronOverview",
     "repo": "",
-    "image": "lebron.png"
+    "image": "images/lebron.png"
   },
   {
     "title": "The Growth of Global Meat Production",
@@ -29,7 +29,7 @@
     "tools": ["Tableau", "Trend Analysis", "Global Food Data", "Data Storytelling"],
     "live": "",
     "repo": "",
-    "image": "meat-production.png"
+    "image": "images/meat-production.png"
   },
   {
     "title": "Unemployment in the US",
@@ -37,7 +37,7 @@
     "tools": ["Tableau", "Economic Analysis", "Time Series Analysis", "Data Storytelling"],
     "live": "",
     "repo": "",
-    "image": "unemployment.png"
+    "image": "images/unemployment.png"
   },
   {
     "title": "Data Modeling Blog Series",
@@ -45,6 +45,6 @@
     "tools": ["Writing", "SQL", "Data Modeling"],
     "live": "https://www.thedataschool.co.uk/vivek-patel/the-data-modelling-series-part-1-what-is-data-modelling-why-it-matters-2/",
     "repo": "",
-    "image": "data-modeling-blog.png"
+    "image": "images/data-modeling-blog.png"
   }
 ]
