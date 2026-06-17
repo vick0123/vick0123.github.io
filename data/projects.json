@@ -1,44 +1,50 @@
 [
   {
+    "title": "NYC Heat Vulnerability",
+    "description": "A geospatial dashboard connecting heat exposure, contributing factors, and cooling center response across NYC neighborhoods.",
+    "tools": ["Tableau", "NYC Open Data", "Geospatial Analysis", "Data Storytelling"],
+    "live": "https://public.tableau.com/app/profile/vivek.patel1989/viz/NYCHeatVulnerability/Exposure",
+    "repo": "",
+    "image": "nyc-heat.png"
+  },
+  {
+    "title": "NY Dam Safety Dashboard",
+    "description": "A public-safety dashboard analyzing New York dam risk by age, condition, hazard level, inspection history, emergency action plans, and county-level risk concentration.",
+    "tools": [ "Tableau", "Risk Analysis", "Geospatial Analysis", "Data Storytelling"],
+    "live": "",
+    "repo": "",
+    "image": "ny-dam.png"
+  },
+  {
     "title": "LeBron Career Dashboard",
     "description": "An interactive basketball analytics dashboard comparing LeBron's eras, advanced metrics, scoring profile, and career impact.",
     "tools": ["Tableau", "Sports Analytics", "Data Storytelling"],
     "live": "https://public.tableau.com/app/profile/vivek.patel1989/viz/LebronJames_17809508256140/LebronOverview",
-    "repo": ""
+    "repo": "",
+    "image": "lebron.png"
   },
   {
-    "title": "NYC Heat Vulnerability",
-    "description": "A geospatial dashboard connecting heat exposure, contributing factors, and cooling center response across NYC neighborhoods.",
-    "tools": ["Tableau", "NYC Open Data", "Maps"],
-    "live": "https://public.tableau.com/app/profile/vivek.patel1989/viz/NYCHeatVulnerability/Exposure",
-    "repo": ""
-  },
-  {
-    "title": "Underwriter Performance Analysis",
-    "description": "A benchmarking dashboard concept that helps leaders compare underwriter performance, bound business, and opportunity areas.",
-    "tools": ["Power BI", "Tableau", "Business Analysis"],
+    "title": "The Growth of Global Meat Production",
+    "description": "A data storytelling dashboard exploring how global meat production has grown since 1961, highlighting poultry's rapid rise, livestock-level trends, and the countries leading production today.",
+    "tools": ["Tableau", "Trend Analysis", "Global Food Data", "Data Storytelling"],
     "live": "",
-    "repo": ""
+    "repo": "",
+    "image": "meat-production.png"
   },
   {
-    "title": "Fire Marshal Resource Dashboard",
-    "description": "A decision-focused dashboard exploring station performance, response timing, location patterns, and operational resource needs.",
-    "tools": ["Tableau", "Operations", "Analytics"],
+    "title": "Unemployment in the US",
+    "description": "A macroeconomic dashboard analyzing U.S. unemployment trends from 1971 to 2025, highlighting recession cycles, decade-level averages, volatility, and major labor-market turning points.",
+    "tools": ["Tableau", "Economic Analysis", "Time Series Analysis", "Data Storytelling"],
     "live": "",
-    "repo": ""
-  },
-  {
-    "title": "Hotel Bookings Analysis",
-    "description": "A hospitality analysis project focused on booking channels, room types, lead time, and performance across multiple locations.",
-    "tools": ["Tableau Prep", "Tableau", "Data Modeling"],
-    "live": "",
-    "repo": ""
+    "repo": "",
+    "image": "unemployment.png"
   },
   {
     "title": "Data Modeling Blog Series",
     "description": "A practical writing series explaining flat files, keys, relationships, and star schema design for analytics beginners.",
     "tools": ["Writing", "SQL", "Data Modeling"],
     "live": "https://www.thedataschool.co.uk/vivek-patel/the-data-modelling-series-part-1-what-is-data-modelling-why-it-matters-2/",
-    "repo": ""
+    "repo": "",
+    "image": "data-modeling-blog.png"
   }
 ]
