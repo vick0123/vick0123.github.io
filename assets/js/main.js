@@ -27,14 +27,17 @@ async function loadJSON(path) {
 function renderProjects(projects) {
   projectGrid.innerHTML = projects.map(project => `
     <article class="project-card reveal">
+        
+      <img class="project-image" src="${project.image}" alt="${project.title} preview">        
+      
       <div>
-        <div class="project-image" role="img" aria-label="${project.title} preview"></div>
         <h3>${project.title}</h3>
         <p>${project.description}</p>
         <div class="tags">
           ${project.tools.map(tool => `<span>${tool}</span>`).join('')}
         </div>
       </div>
+
       <div class="project-links">
         ${project.live ? `<a href="${project.live}" target="_blank" rel="noreferrer">View Dashboard</a>` : ''}
         ${project.repo ? `<a href="${project.repo}" target="_blank" rel="noreferrer">Repo</a>` : ''}
