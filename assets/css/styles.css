@@ -459,7 +459,8 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 22px;
+  gap: 18px;
+  padding: 28px;
   border-radius: var(--radius-lg);
   border: 1px solid var(--line);
   background: linear-gradient(145deg, rgba(255, 255, 255, .11), rgba(255, 255, 255, .045));
@@ -477,6 +478,7 @@ p {
   width: 100%;
   aspect-ratio: 16 / 10;
   object-fit: cover;
+  display: block;
   border-radius: 24px;
   border: 1px solid rgba(255, 255, 255, 0.14);
   background: rgba(255, 255, 255, 0.06);
@@ -493,7 +495,7 @@ p {
 
 .project-card h3 {
   font-size: 1.45rem;
-  margin-bottom: 10px;
+  margin: 10px 0;
 }
 
 .tags {
